@@ -1,2 +1,3 @@
 # Frontend-tutorial
-* Insert images and videos on web-page
+* Insert images and videos in web-page
+* Text and image links to another web-page
