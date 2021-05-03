@@ -9,34 +9,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <h1>Registration forms</h1>
-        <form action="/content.html">
-            <label for="user">Username</label>
-            <input 
-                autofocus 
-                minlength="3"
-                maxlength="16" 
-                name="user" 
-                type="text" 
-                id="user"
-                placeholder="Min 3 characters"
-                required
-            >
-            <label for="email">Email</label>
-            <input required name="email" type="email">
-            <select name="products" id="products">
-                <option value="Mackbook 2021">Mackbook</option>
-                <option selected value="IPhone 12">IPhone</option>
-            </select>
-            <textarea
-                required="false"
-                name="message" 
-                id="message"
-                cols="30" 
-                rows="10"
-            ></textarea>
+        <form>
+            <input type="radio" name="products" value="macbook">
+            <input type="radio" name="products" value="iphone">
+            <input type="radio" name="products" value="cucumber">
+            <input type="radio" name="products" value="amazon">
             <button type="submit">Submit</button>
         </form>
-        <a href="/content.html" target="_blank">Link me to another page</a>
     </body>
 </html>
