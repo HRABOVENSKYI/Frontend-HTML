@@ -5,16 +5,38 @@
         <meta name="description" content="This is a test of HTML description">
         <meta charset="utf-8">
         <meta name="robots" content="index, follow">
-        <link rel="icon" href="/images/diamond_ring_jewel_accessories_icon_186827.ico">
+        <link rel="icon" href="/">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <h1>This is a web-page with a link</h1>
-        <h2>Link to the video with the swimming turtles</h2>
-        <h3>Text link</h3>
-        <a target="_blank" href="https://www.youtube.com/watch?v=yLuEx-XH3Uc">Click here to see these swimming turtles</a>
-        <h3>Image link</h3>
-        <a target="_blank" href="https://www.youtube.com/watch?v=yLuEx-XH3Uc">
-            <img width="50" src="/images/sea_turtle_icon_126096.png"></a>
+        <h1>Registration forms</h1>
+        <form action="/content.html">
+            <label for="user">Username</label>
+            <input 
+                autofocus 
+                minlength="3"
+                maxlength="16" 
+                name="user" 
+                type="text" 
+                id="user"
+                placeholder="Min 3 characters"
+                required
+            >
+            <label for="email">Email</label>
+            <input required name="email" type="email">
+            <select name="products" id="products">
+                <option value="Mackbook 2021">Mackbook</option>
+                <option selected value="IPhone 12">IPhone</option>
+            </select>
+            <textarea
+                required="false"
+                name="message" 
+                id="message"
+                cols="30" 
+                rows="10"
+            ></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <a href="/content.html" target="_blank">Link me to another page</a>
     </body>
 </html>
