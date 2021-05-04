@@ -3,3 +3,4 @@
 * Text and image links to another web-page
 * Registration form
 * Lists
+* CSS style for tag, class and id
