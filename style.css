@@ -1,14 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
-button {
-  margin: 20rem;
-  padding: 2rem 4rem;
-  background: none;
-  border: 0.3rem solid rgb(115, 12, 163);
-  color: rgb(115, 12, 163);
-  font-size: 2.4rem;
-  border-radius: 1rem;
-  background-color: rgb(226, 211, 233);
+h1 {
+  background-color: rgb(185, 238, 238);
+  height: 5rem;
+}
+
+a {
+  display: inline-block;
+  height: 2rem;
+  width: 20rem;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: lightgoldenrodyellow;
 }
