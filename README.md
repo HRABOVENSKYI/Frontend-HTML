@@ -6,3 +6,4 @@
 * CSS style for tag, class and id
 * Padding and margine
 * Styles for BoxModel
+* Use rem instead of pixels
