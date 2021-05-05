@@ -1,9 +1,14 @@
-h1 {
-  margin: 50px;
-  background-color: rgb(166, 184, 89);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-button {
-  padding: 50px 20px;
-  background-color: coral;
+div {
+  color: wheat;
+  background-color: darkblue;
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  border: 5px solid black;
 }
